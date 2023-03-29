@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0738DBF29D3B188004CA981 /* look_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A0738DBC29D3B187004CA981 /* look_2.mp4 */; };
+		A0738DC029D3B188004CA981 /* look_3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A0738DBD29D3B187004CA981 /* look_3.mp4 */; };
+		A0738DC129D3B188004CA981 /* look_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A0738DBE29D3B187004CA981 /* look_1.mp4 */; };
+		A0738DC629D3B194004CA981 /* profile_1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A0738DC229D3B193004CA981 /* profile_1.jpeg */; };
+		A0738DC729D3B194004CA981 /* profile_4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A0738DC329D3B194004CA981 /* profile_4.jpeg */; };
+		A0738DC829D3B194004CA981 /* profile_2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A0738DC429D3B194004CA981 /* profile_2.jpeg */; };
+		A0738DC929D3B194004CA981 /* profile_3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A0738DC529D3B194004CA981 /* profile_3.jpeg */; };
+		A0738DD429D4800F004CA981 /* HomeModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0738DD329D4800F004CA981 /* HomeModuleConfigurator.swift */; };
+		A0738DD629D4803B004CA981 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0738DD529D4803B004CA981 /* HomeViewModel.swift */; };
+		A0738DD829D481B8004CA981 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0738DD729D481B8004CA981 /* VideoCell.swift */; };
+		A0738DDA29D481DD004CA981 /* VideoContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0738DD929D481DD004CA981 /* VideoContentView.swift */; };
+		A0738DDD29D4823A004CA981 /* HomeViewModelProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0738DDC29D4823A004CA981 /* HomeViewModelProtocols.swift */; };
+		A0738DDF29D4827E004CA981 /* UIView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0738DDE29D4827E004CA981 /* UIView+extensions.swift */; };
+		A0738DE129D482C0004CA981 /* Looks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0738DE029D482C0004CA981 /* Looks.swift */; };
+		A0738DE329D482EA004CA981 /* ReactionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0738DE229D482EA004CA981 /* ReactionType.swift */; };
+		A0738DE629D4832E004CA981 /* Networker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0738DE529D4832E004CA981 /* Networker.swift */; };
+		A0738DE829D48373004CA981 /* NetworkErrorStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0738DE729D48373004CA981 /* NetworkErrorStatusCode.swift */; };
+		A0738DEA29D48388004CA981 /* NetworkEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0738DE929D48388004CA981 /* NetworkEndpoint.swift */; };
+		A0738DED29D48A7A004CA981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0738DEC29D48A79004CA981 /* LaunchScreen.storyboard */; };
+		A0738DEE29D48D8D004CA981 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A0A79B0129D20F5A0093DB5E /* data.json */; };
+		A0A79ACB29D20BA80093DB5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A79ACA29D20BA80093DB5E /* AppDelegate.swift */; };
+		A0A79ACF29D20BA80093DB5E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A79ACE29D20BA80093DB5E /* HomeViewController.swift */; };
+		A0A79AD429D20BAA0093DB5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0A79AD329D20BAA0093DB5E /* Assets.xcassets */; };
+		A0A79AE229D20BAA0093DB5E /* TakeHomeTikTokTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A79AE129D20BAA0093DB5E /* TakeHomeTikTokTests.swift */; };
+		A0A79B0229D20F5A0093DB5E /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A0A79B0129D20F5A0093DB5E /* data.json */; };
+		A0EF839A29D3380C001AC2D3 /* look_4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A0EF839929D3380C001AC2D3 /* look_4.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0A79ADE29D20BAA0093DB5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0A79ABF29D20BA80093DB5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0A79AC629D20BA80093DB5E;
+			remoteInfo = TakeHomeTikTok;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0738DBC29D3B187004CA981 /* look_2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = look_2.mp4; sourceTree = "<group>"; };
+		A0738DBD29D3B187004CA981 /* look_3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = look_3.mp4; sourceTree = "<group>"; };
+		A0738DBE29D3B187004CA981 /* look_1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = look_1.mp4; sourceTree = "<group>"; };
+		A0738DC229D3B193004CA981 /* profile_1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile_1.jpeg; sourceTree = "<group>"; };
+		A0738DC329D3B194004CA981 /* profile_4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile_4.jpeg; sourceTree = "<group>"; };
+		A0738DC429D3B194004CA981 /* profile_2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile_2.jpeg; sourceTree = "<group>"; };
+		A0738DC529D3B194004CA981 /* profile_3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile_3.jpeg; sourceTree = "<group>"; };
+		A0738DD329D4800F004CA981 /* HomeModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModuleConfigurator.swift; sourceTree = "<group>"; };
+		A0738DD529D4803B004CA981 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		A0738DD729D481B8004CA981 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		A0738DD929D481DD004CA981 /* VideoContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoContentView.swift; sourceTree = "<group>"; };
+		A0738DDC29D4823A004CA981 /* HomeViewModelProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelProtocols.swift; sourceTree = "<group>"; };
+		A0738DDE29D4827E004CA981 /* UIView+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extensions.swift"; sourceTree = "<group>"; };
+		A0738DE029D482C0004CA981 /* Looks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Looks.swift; sourceTree = "<group>"; };
+		A0738DE229D482EA004CA981 /* ReactionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionType.swift; sourceTree = "<group>"; };
+		A0738DE529D4832E004CA981 /* Networker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networker.swift; sourceTree = "<group>"; };
+		A0738DE729D48373004CA981 /* NetworkErrorStatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrorStatusCode.swift; sourceTree = "<group>"; };
+		A0738DE929D48388004CA981 /* NetworkEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEndpoint.swift; sourceTree = "<group>"; };
+		A0738DEC29D48A79004CA981 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0A79AC729D20BA80093DB5E /* TakeHomeTikTok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeHomeTikTok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A79ACA29D20BA80093DB5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0A79ACE29D20BA80093DB5E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A0A79AD329D20BAA0093DB5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0A79AD829D20BAA0093DB5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0A79ADD29D20BAA0093DB5E /* TakeHomeTikTokTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeHomeTikTokTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A79AE129D20BAA0093DB5E /* TakeHomeTikTokTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeHomeTikTokTests.swift; sourceTree = "<group>"; };
+		A0A79B0129D20F5A0093DB5E /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		A0EF839929D3380C001AC2D3 /* look_4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = look_4.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0A79AC429D20BA80093DB5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A79ADA29D20BAA0093DB5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0738DBB29D3B171004CA981 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0738DC229D3B193004CA981 /* profile_1.jpeg */,
+				A0738DC429D3B194004CA981 /* profile_2.jpeg */,
+				A0738DC529D3B194004CA981 /* profile_3.jpeg */,
+				A0738DC329D3B194004CA981 /* profile_4.jpeg */,
+				A0738DBE29D3B187004CA981 /* look_1.mp4 */,
+				A0738DBC29D3B187004CA981 /* look_2.mp4 */,
+				A0738DBD29D3B187004CA981 /* look_3.mp4 */,
+				A0EF839929D3380C001AC2D3 /* look_4.mp4 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A0738DD229D47FFE004CA981 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				A0A79ACE29D20BA80093DB5E /* HomeViewController.swift */,
+				A0738DD329D4800F004CA981 /* HomeModuleConfigurator.swift */,
+				A0738DD529D4803B004CA981 /* HomeViewModel.swift */,
+				A0738DDC29D4823A004CA981 /* HomeViewModelProtocols.swift */,
+				A0738DDB29D4820C004CA981 /* Components */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		A0738DDB29D4820C004CA981 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A0738DD729D481B8004CA981 /* VideoCell.swift */,
+				A0738DD929D481DD004CA981 /* VideoContentView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A0738DE429D48309004CA981 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0738DE029D482C0004CA981 /* Looks.swift */,
+				A0738DE229D482EA004CA981 /* ReactionType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A0738DEB29D483AA004CA981 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A0738DE529D4832E004CA981 /* Networker.swift */,
+				A0738DE729D48373004CA981 /* NetworkErrorStatusCode.swift */,
+				A0738DE929D48388004CA981 /* NetworkEndpoint.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A0A79ABE29D20BA80093DB5E = {
+			isa = PBXGroup;
+			children = (
+				A0A79AC929D20BA80093DB5E /* TakeHomeTikTok */,
+				A0A79AE029D20BAA0093DB5E /* TakeHomeTikTokTests */,
+				A0A79AC829D20BA80093DB5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0A79AC829D20BA80093DB5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0A79AC729D20BA80093DB5E /* TakeHomeTikTok.app */,
+				A0A79ADD29D20BAA0093DB5E /* TakeHomeTikTokTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0A79AC929D20BA80093DB5E /* TakeHomeTikTok */ = {
+			isa = PBXGroup;
+			children = (
+				A0738DEB29D483AA004CA981 /* Network */,
+				A0738DE429D48309004CA981 /* Model */,
+				A0738DBB29D3B171004CA981 /* Resources */,
+				A0A79ACA29D20BA80093DB5E /* AppDelegate.swift */,
+				A0738DD229D47FFE004CA981 /* HomeModule */,
+				A0A79AD329D20BAA0093DB5E /* Assets.xcassets */,
+				A0738DEC29D48A79004CA981 /* LaunchScreen.storyboard */,
+				A0A79AD829D20BAA0093DB5E /* Info.plist */,
+				A0A79B0129D20F5A0093DB5E /* data.json */,
+				A0738DDE29D4827E004CA981 /* UIView+extensions.swift */,
+			);
+			path = TakeHomeTikTok;
+			sourceTree = "<group>";
+		};
+		A0A79AE029D20BAA0093DB5E /* TakeHomeTikTokTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0A79AE129D20BAA0093DB5E /* TakeHomeTikTokTests.swift */,
+			);
+			path = TakeHomeTikTokTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0A79AC629D20BA80093DB5E /* TakeHomeTikTok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0A79AF129D20BAB0093DB5E /* Build configuration list for PBXNativeTarget "TakeHomeTikTok" */;
+			buildPhases = (
+				A0A79AC329D20BA80093DB5E /* Sources */,
+				A0A79AC429D20BA80093DB5E /* Frameworks */,
+				A0A79AC529D20BA80093DB5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TakeHomeTikTok;
+			productName = TakeHomeTikTok;
+			productReference = A0A79AC729D20BA80093DB5E /* TakeHomeTikTok.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0A79ADC29D20BAA0093DB5E /* TakeHomeTikTokTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0A79AF429D20BAB0093DB5E /* Build configuration list for PBXNativeTarget "TakeHomeTikTokTests" */;
+			buildPhases = (
+				A0A79AD929D20BAA0093DB5E /* Sources */,
+				A0A79ADA29D20BAA0093DB5E /* Frameworks */,
+				A0A79ADB29D20BAA0093DB5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0A79ADF29D20BAA0093DB5E /* PBXTargetDependency */,
+			);
+			name = TakeHomeTikTokTests;
+			productName = TakeHomeTikTokTests;
+			productReference = A0A79ADD29D20BAA0093DB5E /* TakeHomeTikTokTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0A79ABF29D20BA80093DB5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A0A79AC629D20BA80093DB5E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A0A79ADC29D20BAA0093DB5E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A0A79AC629D20BA80093DB5E;
+					};
+				};
+			};
+			buildConfigurationList = A0A79AC229D20BA80093DB5E /* Build configuration list for PBXProject "TakeHomeTikTok" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0A79ABE29D20BA80093DB5E;
+			productRefGroup = A0A79AC829D20BA80093DB5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0A79AC629D20BA80093DB5E /* TakeHomeTikTok */,
+				A0A79ADC29D20BAA0093DB5E /* TakeHomeTikTokTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0A79AC529D20BA80093DB5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0738DC629D3B194004CA981 /* profile_1.jpeg in Resources */,
+				A0EF839A29D3380C001AC2D3 /* look_4.mp4 in Resources */,
+				A0A79AD429D20BAA0093DB5E /* Assets.xcassets in Resources */,
+				A0738DC729D3B194004CA981 /* profile_4.jpeg in Resources */,
+				A0738DC929D3B194004CA981 /* profile_3.jpeg in Resources */,
+				A0738DC029D3B188004CA981 /* look_3.mp4 in Resources */,
+				A0738DBF29D3B188004CA981 /* look_2.mp4 in Resources */,
+				A0738DC829D3B194004CA981 /* profile_2.jpeg in Resources */,
+				A0738DC129D3B188004CA981 /* look_1.mp4 in Resources */,
+				A0738DED29D48A7A004CA981 /* LaunchScreen.storyboard in Resources */,
+				A0A79B0229D20F5A0093DB5E /* data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A79ADB29D20BAA0093DB5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0738DEE29D48D8D004CA981 /* data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0A79AC329D20BA80093DB5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0738DE629D4832E004CA981 /* Networker.swift in Sources */,
+				A0738DEA29D48388004CA981 /* NetworkEndpoint.swift in Sources */,
+				A0738DD829D481B8004CA981 /* VideoCell.swift in Sources */,
+				A0738DE829D48373004CA981 /* NetworkErrorStatusCode.swift in Sources */,
+				A0A79ACF29D20BA80093DB5E /* HomeViewController.swift in Sources */,
+				A0738DE129D482C0004CA981 /* Looks.swift in Sources */,
+				A0738DD429D4800F004CA981 /* HomeModuleConfigurator.swift in Sources */,
+				A0738DDD29D4823A004CA981 /* HomeViewModelProtocols.swift in Sources */,
+				A0A79ACB29D20BA80093DB5E /* AppDelegate.swift in Sources */,
+				A0738DDA29D481DD004CA981 /* VideoContentView.swift in Sources */,
+				A0738DDF29D4827E004CA981 /* UIView+extensions.swift in Sources */,
+				A0738DE329D482EA004CA981 /* ReactionType.swift in Sources */,
+				A0738DD629D4803B004CA981 /* HomeViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A79AD929D20BAA0093DB5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A79AE229D20BAA0093DB5E /* TakeHomeTikTokTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0A79ADF29D20BAA0093DB5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0A79AC629D20BA80093DB5E /* TakeHomeTikTok */;
+			targetProxy = A0A79ADE29D20BAA0093DB5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A0A79AEF29D20BAB0093DB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0A79AF029D20BAB0093DB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0A79AF229D20BAB0093DB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TakeHomeTikTok/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = takehometiktok.TakeHomeTikTok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0A79AF329D20BAB0093DB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TakeHomeTikTok/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = takehometiktok.TakeHomeTikTok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0A79AF529D20BAB0093DB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = takehometiktok.TakeHomeTikTokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakeHomeTikTok.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TakeHomeTikTok";
+			};
+			name = Debug;
+		};
+		A0A79AF629D20BAB0093DB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = takehometiktok.TakeHomeTikTokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakeHomeTikTok.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TakeHomeTikTok";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0A79AC229D20BA80093DB5E /* Build configuration list for PBXProject "TakeHomeTikTok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A79AEF29D20BAB0093DB5E /* Debug */,
+				A0A79AF029D20BAB0093DB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0A79AF129D20BAB0093DB5E /* Build configuration list for PBXNativeTarget "TakeHomeTikTok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A79AF229D20BAB0093DB5E /* Debug */,
+				A0A79AF329D20BAB0093DB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0A79AF429D20BAB0093DB5E /* Build configuration list for PBXNativeTarget "TakeHomeTikTokTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A79AF529D20BAB0093DB5E /* Debug */,
+				A0A79AF629D20BAB0093DB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0A79ABF29D20BA80093DB5E /* Project object */;
+}
